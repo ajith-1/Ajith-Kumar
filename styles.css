@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppines', sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.cardLayout {
+  text-align: center;
+  margin-top: 100px;
+}
+/* input box */
+#inputBox {
+  width: 320px;
+  height: 40px;
+  border: 2px solid #2b65d1;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: 17px;
+  outline: 0;
+  caret-color: lightseagreen;
+  color: tomato;
+}
+#btn {
+  margin-left: 10px;
+  width: 55px;
+  height: 40px;
+  color: #ffff;
+  background-color: #2b65d1;
+  border: 0;
+  border-radius: 5px;
+  font-size: 15px;
+}
+#card {
+  margin-top: 50px;
+  width: 350px;
+  height: fit-content;
+  padding: 10px;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  background-color: #2b65d1;
+  color: #ffff;
+  display: none;
+}
+.name {
+  margin: 5px 0 5px 12px;
+}
+@media only screen and (max-width: 410px) {
+  #btn {
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 70px;
+    height: 30px;
+  }
+  #inputBox {
+    width: 240px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 7px;
+  }
+}
